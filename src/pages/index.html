@@ -47,7 +47,22 @@ percentage: 30
     <columns small="6" large="12" class="small-offset-6">
       <h4>Shop for {{percentage}}% off</h4>
       <spacer size="40"></spacer>
+
+      {{#bold}}
+      My bold text
+      {{/bold}}
+
+      {{#unlesspage "index"}}
+      <h5>testing</h5>
+      {{/unlesspage}}
+      {{#repeat 10}}
+      <h5>YOLO</h5>
+      {{/repeat}}
       <h4>image</h4>
+
+
+
+
     </columns>
   </row>
 
