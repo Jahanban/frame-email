@@ -22,6 +22,22 @@ body {
   }
 }
 
+.sub-header {
+  background-color: #D65600;
+  background: #D65600;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-top: 20px;
+
+    h1 {
+      color: white;
+    }
+  }
+}
+
 .grogu-middle {
   vertical-align: middle;
 }
