@@ -36,11 +36,20 @@ body {
     padding-left: 20px !important;
     padding-top: 20px;
 
-    h1 {
+    a {
       color: white;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: capitalize;
+
+      .icons {
+        width: 20px;
+        margin-right: 10px;
+      }
     }
   }
 }
+
 
 .grogu-middle {
   vertical-align: middle;
