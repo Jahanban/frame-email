@@ -149,12 +149,18 @@ body {
   background: #F1F4F7;
 
   &>tbody>tr>th {
+    padding-top: 0px;
+  }
+
+  .first-offer {
     padding-top: 16px;
   }
+
 
   .offer {
     background-color: #ffffff;
     background: #ffffff;
+
 
     .columns {
       th {
