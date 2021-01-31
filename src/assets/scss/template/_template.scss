@@ -124,22 +124,24 @@ body {
     }
 
   }
-}
 
-.button {
-  display: inline-block;
-  border: 2px solid white;
-  border-radius: 5px;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  width: 150px;
-  color: white;
-  text-align: center;
+  .button {
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 150px;
+    color: white;
+    text-align: center;
 
-  &:hover {
-    color: $primary-color;
+    &:hover {
+      color: $primary-color;
+    }
   }
+
 }
+
 
 
 .content-area {
@@ -209,7 +211,7 @@ body {
     }
 
     .button {
-      display: inline-block;
+      display: block;
       background-color: #14181c;
       background: #14181c;
       border: 2px solid black;
@@ -219,14 +221,42 @@ body {
       width: 150px;
       color: white;
       text-align: center;
+      margin: 0 auto;
 
       &:hover {
         color: $primary-color;
       }
     }
+
+    &.last-offer {
+      .group-icons {
+        width: 190px;
+        margin: 0 auto;
+        padding-bottom: 0;
+
+      }
+
+      h4 {
+        color: #334755;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+
+      p {
+        color: #334755;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+    }
   }
 
 }
+
+
 
 
 
