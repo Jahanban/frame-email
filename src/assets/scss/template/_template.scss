@@ -273,8 +273,8 @@ body {
   color: white;
 
   &>tbody>tr>th {
-    padding-bottom: 20px !important;
-    padding-top: 20px !important;
+    padding-bottom: 25px !important;
+    padding-top: 30px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
@@ -311,6 +311,10 @@ body {
       height: 40px;
       display: block;
       margin: 0 auto;
+    }
+
+    &>table>tbody>tr>th>table>tbody>tr>th> {
+      padding-bottom: 5px;
     }
 
   }
