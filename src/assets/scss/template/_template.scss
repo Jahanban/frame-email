@@ -273,24 +273,32 @@ body {
   color: white;
 
   &>tbody>tr>th {
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 
   th {
-    padding-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 0px;
+  }
+
+  .circle-logo {
+    display: block;
+    margin: 0 auto;
   }
 
   .call-to-action {
     display: block;
     font-size: 14px;
+    hyphens: none;
   }
 
   .info {
     display: block;
     font-size: 12px;
+    hyphens: none;
   }
 
   .info-section>table>tbody>tr>th {
