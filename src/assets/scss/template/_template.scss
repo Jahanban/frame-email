@@ -267,17 +267,13 @@ body {
 
 
 
-.footer {
-  background: black;
+.footer-top {
+  background: #222d37;
+  background-color: #222d37;
   color: white;
 
-  .footer-container {
-    background-color: black;
-    background: black;
-  }
-
-
-  a {
-    color: red;
+  &>tbody>tr>th {
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
 }
