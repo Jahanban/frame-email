@@ -263,10 +263,6 @@ body {
 
 }
 
-
-
-
-
 .footer-top {
   background: #222d37;
   background-color: #222d37;
@@ -317,5 +313,34 @@ body {
       padding-bottom: 5px;
     }
 
+  }
+}
+
+.footer-social {
+  background: #14181c;
+  background-color: #14181c;
+
+  &>tbody>tr>th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logo-section {
+    img {
+      width: 128px;
+    }
+  }
+
+  .social-icons {
+    img {
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
