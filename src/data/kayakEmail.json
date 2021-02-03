@@ -21,12 +21,12 @@
         },
         {
             "location": "China",
-            "description": " Speand 7 nights in the heart of Beijing.",
+            "description": " Spend 7 nights in the heart of Beijing.",
             "saveAmount": "Save up to 34%",
             "tinyInfo": "chinaair.com",
             "price": "950",
             "link": "www.kayak.com",
-            "image": "assets/img/kayak_files/china.png"
+            "image": "assets/img/kayak_files/china.jpg"
         },
         {
             "location": "London",

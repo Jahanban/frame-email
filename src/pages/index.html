@@ -14,7 +14,7 @@ subject: Great Deals Today
             <span class="tiny_info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
             <span class="price">{{kayakEmail.dealOfTheDay.price}}</span>
             <center>
-                <a href="#" class="button">{{kayakEmail.dealOfTheDay.link}}</a>
+                <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</a>
             </center>
         </columns>
     </row>
@@ -27,14 +27,13 @@ subject: Great Deals Today
             {{#each kayakEmail.offers}}
             <row class="offer ">
                 <columns>
-                    <img src="{{ root }}/assets/img/kayak_files/cancun.png" alt="Image of Irish sunset">
-                    <p>Cancun: 4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other
-                        cities available.</p>
-                    <span class="save_amount">Save up to 65%</span>
-                    <span class="tiny_info">Cheapcaribbean.com</span>
-                    <span class="price"> $689+</span>
+                    <img src="{{this.image}}">
+                    <p>{{this.location}}: {{this.description}}</p>
+                    <span class="save_amount">{{this.saveAmount}}</span>
+                    <span class="tiny_info">{{this.tinyInfo}}</span>
+                    <span class="price">{{this.price}}</span>
 
-                    <a href="#" class="button"> See Deal</a>
+                    <a href="{{this.link}}" class="button"> See Deal</a>
 
                 </columns>
             </row>
