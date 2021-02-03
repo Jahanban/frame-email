@@ -1,0 +1,21 @@
+{
+    "title": "Fly to Ireland with less than $700 round trip plus more!",
+    "deal of the day": {
+        "location": "Ireland",
+        "Description": "8 days with air, hotel and car rental. Use promo code CFDL11 to save. Price reflects NYC departure, other cities avaibale.",
+        "saveAmount": "Save $110 with code",
+        "tinyInfo": "gate 1 travel",
+        "price": "649",
+        "link": "www.kayak.com",
+        "image": "assets/img/kayak_files/ireland.png"
+    },
+    "offers": {
+        "location": "cancun",
+        "description": "4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.",
+        "saveAmount": "Save up to 65%",
+        "tinyInfo": "Cheapcaribbean.com",
+        "price": "689",
+        "link": "www.kayak.com",
+        "image": "assets/img/kayak_files/cancun.png"
+    }
+}
