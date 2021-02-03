@@ -8,16 +8,13 @@ subject: Great Deals Today
     <row class="deal_of_day">
         <columns>
             <h2>Deal of The Day</h2>
-            <img src="{{ root }}/assets/img/kayak_files/ireland.png" alt="Image of Irish sunset">
-            <p>{{kayakEmail.dealOfTheDay.location}}: 8 days with air, hotel and car rental. Use promo code CFDL11 to
-                save. Price reflects NYC
-                departure,
-                other cities avaibale.</p>
-            <span class="save_amount">Save $110 with code</span>
-            <span class="tiny_info">Gate 1 Travel</span>
-            <span class="price"> $649+</span>
+            <img src="{{kayakEmail.dealOfTheDay.image}}" alt="Image of Irish sunset">
+            <p>{{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}</p>
+            <span class="save_amount">{{kayakEmail.dealOfTheDay.saveAmount}}</span>
+            <span class="tiny_info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
+            <span class="price">{{kayakEmail.dealOfTheDay.price}}</span>
             <center>
-                <a href="#" class="button"> See Deal</a>
+                <a href="#" class="button">{{kayakEmail.dealOfTheDay.link}}</a>
             </center>
         </columns>
     </row>
