@@ -1,6 +1,6 @@
 {
     "title": "Fly to Ireland with less than $700 round trip plus more!",
-    "deal of the day": {
+    "dealOfTheDay": {
         "location": "Ireland",
         "Description": "8 days with air, hotel and car rental. Use promo code CFDL11 to save. Price reflects NYC departure, other cities avaibale.",
         "saveAmount": "Save $110 with code",
@@ -9,13 +9,33 @@
         "link": "www.kayak.com",
         "image": "assets/img/kayak_files/ireland.png"
     },
-    "offers": {
-        "location": "cancun",
-        "description": "4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.",
-        "saveAmount": "Save up to 65%",
-        "tinyInfo": "Cheapcaribbean.com",
-        "price": "689",
-        "link": "www.kayak.com",
-        "image": "assets/img/kayak_files/cancun.png"
-    }
+    "offers": [
+        {
+            "location": "Cancun",
+            "description": "4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available.",
+            "saveAmount": "Save up to 65%",
+            "tinyInfo": "Cheapcaribbean.com",
+            "price": "689",
+            "link": "www.kayak.com",
+            "image": "assets/img/kayak_files/cancun.png"
+        },
+        {
+            "location": "China",
+            "description": " Speand 7 nights in the heart of Beijing.",
+            "saveAmount": "Save up to 34%",
+            "tinyInfo": "chinaair.com",
+            "price": "950",
+            "link": "www.kayak.com",
+            "image": "assets/img/kayak_files/china.png"
+        },
+        {
+            "location": "London",
+            "description": "Visit the castles in London all inclusive, other cities available.",
+            "saveAmount": "Save up to 25%",
+            "tinyInfo": "virginair.com",
+            "price": "1200",
+            "link": "www.kayak.com",
+            "image": "assets/img/kayak_files/london.png"
+        }
+    ]
 }
