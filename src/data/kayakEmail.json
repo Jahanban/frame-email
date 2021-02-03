@@ -7,7 +7,7 @@
         "tinyInfo": "gate 1 travel",
         "price": "649",
         "link": "www.kayak.com",
-        "image": "assets/img/kayak_files/ireland.png"
+        "image": "https://i.imgur.com/cVLKv3y.png"
     },
     "offers": [
         {
@@ -17,7 +17,7 @@
             "tinyInfo": "Cheapcaribbean.com",
             "price": "689",
             "link": "www.kayak.com",
-            "image": "assets/img/kayak_files/cancun.png"
+            "image": "https://i.imgur.com/r68Be9g.png"
         },
         {
             "location": "China",
@@ -26,7 +26,7 @@
             "tinyInfo": "chinaair.com",
             "price": "950",
             "link": "www.kayak.com",
-            "image": "assets/img/kayak_files/china.jpg"
+            "image": "https://i.imgur.com/CK0wejN.jpg"
         },
         {
             "location": "London",
@@ -35,7 +35,7 @@
             "tinyInfo": "virginair.com",
             "price": "1200",
             "link": "www.kayak.com",
-            "image": "assets/img/kayak_files/london.png"
+            "image": "https://i.imgur.com/QpF4EUv.png"
         }
     ]
 }

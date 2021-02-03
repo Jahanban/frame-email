@@ -12,7 +12,7 @@ subject: Great Deals Today
             <p>{{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}</p>
             <span class="save_amount">{{kayakEmail.dealOfTheDay.saveAmount}}</span>
             <span class="tiny_info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
-            <span class="price">{{kayakEmail.dealOfTheDay.price}}</span>
+            <span class="price">${{kayakEmail.dealOfTheDay.price}}+</span>
             <center>
                 <a href="{{kayakEmail.dealOfTheDay.link}}" class="button">See Deal</a>
             </center>
@@ -31,7 +31,7 @@ subject: Great Deals Today
                     <p>{{this.location}}: {{this.description}}</p>
                     <span class="save_amount">{{this.saveAmount}}</span>
                     <span class="tiny_info">{{this.tinyInfo}}</span>
-                    <span class="price">{{this.price}}</span>
+                    <span class="price">${{this.price}}+</span>
 
                     <a href="{{this.link}}" class="button"> See Deal</a>
 
@@ -50,7 +50,7 @@ subject: Great Deals Today
                     <row>
                         <columns>
 
-                            <img src="{{ root }}/assets/img/kayak_files/airplane_dark.png" class="group-icons"
+                            <img src="https://i.imgur.com/CkMXPzX.png" class="group-icons"
                                 alt="Airplane, car, bed and ship icons">
 
 
