@@ -385,3 +385,14 @@ body {
     }
   }
 }
+
+.footer-bottom {
+  background-color: #14181c;
+  background: #14181c;
+
+  .lower-links {
+    >tbody>tr>th>table>tbody>tr>th {
+      text-align: center;
+    }
+  }
+}
