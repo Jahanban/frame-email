@@ -24,6 +24,7 @@ subject: Great Deals Today
 <container>
     <row class="content-area">
         <columns class="first-offer">
+            {{#each kayakEmail.offers}}
             <row class="offer ">
                 <columns>
                     <img src="{{ root }}/assets/img/kayak_files/cancun.png" alt="Image of Irish sunset">
@@ -37,6 +38,7 @@ subject: Great Deals Today
 
                 </columns>
             </row>
+            {{/each}}
         </columns>
     </row>
 </container>
